@@ -6,7 +6,7 @@ const should = chai.should();
 
 describe('loading express', ()=> {
     it("return list of blog", (done) => {
-        chai.request("http://localhost:4000/").get("/").end((err, res) => {
+        chai.request("http://localhost:3000/").get("/").end((err, res) => {
             if(err){
                 console.log(err)
                 return
